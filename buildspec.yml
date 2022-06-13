@@ -6,8 +6,8 @@ phases:
       - mvn clean package
   post_build:
     commands:
-      -echo Build completed successfully...
+      - echo Build completed successfully...
 artifacts:
   files:
-    -target/customermgmt.jar
+    - target/customermgmt.jar
   discard-paths: yes
